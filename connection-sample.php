@@ -1,9 +1,10 @@
 <?php
-$servername = "localhost";
-$port = "3306";
-$username = "username";
-$password = "password";
+$servername  = "localhost";
+$port        = "3306";
+$username    = "username";
+$password    = "password";
 $trying_from = "from.me";
-$dbname = "dbname";
+$dbname      = "dbname";
+$site        = "http://test.this";
 ?>
 
