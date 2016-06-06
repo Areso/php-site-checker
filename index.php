@@ -3,11 +3,12 @@
   $site          = "http://uk-vodokanal.kz/asdsdsd";
   $header_check  = get_headers($site);
   $response_code = $header_check[0]; 
+  
   if ($response_code <> "HTTP/1.1 200 OK")
   {
   try {
     $conn = new PDO("mysql: host=$servername;port=$port;dbname=$dbname", 
-      $username, $passowrd);
+      $username, $password);
       //// set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql = "INSERT INTO watch (site, trying_from, server_respond)
