@@ -3,6 +3,7 @@ $servername = "localhost";
 $port = "3306";
 $username = "username";
 $password = "password";
-$trying_from = "mytestingsite";
-$dbname = "myDBPDO";
+$trying_from = "from.me";
+$dbname = "dbname";
 ?>
+
